@@ -1,0 +1,25 @@
+{
+  "name": "wolff-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP Echo Server",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "ai": "latest",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "ollama-ai-provider": "latest",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
